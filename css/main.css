@@ -32,6 +32,11 @@ img, object, video {
     padding-bottom: 0pt;
 }
 
+.logoImage{
+    height: 40%;
+    width: 40%;
+}
+
 .bottomLeftImage {
     margin-top: 0pt;
     padding-left: 7pt;
@@ -44,6 +49,8 @@ img, object, video {
     padding-left: 0pt;
     padding-right: 0pt;
     padding-top: 0px;
+    height: 98.5%;
+    width: 98.5%;
 }
 
 .bottomRightImage {
