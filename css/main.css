@@ -1,79 +1,69 @@
 * {
   font-family: 'Droid Serif', serif;
 }
-body
-{
-  background: #000000;
+
+body {
+  background: #000;
 }
 
 p {
-    font-family: Verdana, sans-serif;
-    color: #666;
-    font-size: 15px;
-    letter-spacing: 2px;
-    line-height: 26px;
-    padding-top: 5pt;
+  font-family: Verdana, sans-serif;
+  color: #666;
+  font-size: 15px;
+  letter-spacing: 2px;
+  line-height: 26px;
+  padding: 5pt 0;
 }
 
 img, object, video {
   max-width: 100%;
 }
 
-.col-5-border {
-    width: 41.66666667%;
-    border: 1px solid #666;
-    padding-left: 15px;
+.logo-space {
+  margin: 0 0;
+  padding: 0 0 0 5pt;
 }
 
-.logoSpace {
-    margin-top: 0pt;
-    padding-left: 5pt;
-    padding-top: 0pt;
-    padding-bottom: 0pt;
+.logo-image {
+  height: 40%;
+  width: 40%;
+  margin: 0 0;
+  padding: 0 0 0 5pt;
 }
 
-.logoImage{
-    height: 40%;
-    width: 40%;
+.bottom-left-image {
+  margin: 0 0;
+  padding: 0 0 0 1.25pt;
 }
 
-.bottomLeftImage {
-    margin-top: 0pt;
-    padding-left: 7pt;
-    padding-right: 0pt;
-    padding-top: 0px;
+.bottom-center-image {
+  margin: 0 0;
+  padding: 0 0 0 0;
+  height: 98.5%;
+  width: 98.5%;
 }
 
-.bottomCenterImage {
-    margin-top: 0pt;
-    padding-left: 0pt;
-    padding-right: 0pt;
-    padding-top: 0px;
-    height: 98.5%;
-    width: 98.5%;
+.bottom-right-image {
+  margin: 0 0;
+  padding: 0 1pt 0 2pt;
 }
 
-.bottomRightImage {
-    margin-top: 0pt;
-    padding-left: 0pt;
-    padding-right: 5pt;
-    padding-top: 0px;
-}
-
-.mainImage {
-  margin-top: 0pt;
+.main-image {
+  margin: 0 0;
 }
 
 nav a, button {
   min-width: 48px;
   min-height: 48px;
 }
+
 h1 {
   font-size: 52px;
   color: #666;
   padding-top: 6pt;
-  margin-bottom: 0pt;
+  margin-bottom: 0;
 }
+
 h2 {
   font-size: 30px;
   color: #666;
@@ -82,20 +72,14 @@ h2 {
   font-weight: bold;
   padding-left: 12pt;
 }
+
 h3 {
   margin-top: 1pt;
   margin-bottom: 1pt;
 }
-li {
-    font-family: Verdana, sans-serif;
-    color: #666;
-    font-size: 15.5px;
-    margin-top: 1pt;
-    margin-bottom: 1pt;
-    padding-top: 7pt;
-}
-hr {
-    margin-top: 1pt;
-    margin-bottom: 1pt;
-    height: 2pt;
+
+hr { display: block; height: 1px;
+    border: 0; border-top: 2px solid #665;
+    margin: 0 0;
+    padding: 0 0;
 }
