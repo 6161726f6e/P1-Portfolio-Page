@@ -1,0 +1,94 @@
+* {
+  font-family: 'Droid Serif', serif;
+}
+body
+{
+  background: #000000;
+}
+
+p {
+    font-family: Verdana, sans-serif;
+    color: #666;
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 26px;
+    padding-top: 5pt;
+}
+
+img, object, video {
+  max-width: 100%;
+}
+
+.col-5-border {
+    width: 41.66666667%;
+    border: 1px solid #666;
+    padding-left: 15px;
+}
+
+.logoSpace {
+    margin-top: 0pt;
+    padding-left: 5pt;
+    padding-top: 0pt;
+    padding-bottom: 0pt;
+}
+
+.bottomLeftImage {
+    margin-top: 0pt;
+    padding-left: 7pt;
+    padding-right: 0pt;
+    padding-top: 0px;
+}
+
+.bottomCenterImage {
+    margin-top: 0pt;
+    padding-left: 0pt;
+    padding-right: 0pt;
+    padding-top: 0px;
+}
+
+.bottomRightImage {
+    margin-top: 0pt;
+    padding-left: 0pt;
+    padding-right: 5pt;
+    padding-top: 0px;
+}
+
+.mainImage {
+  margin-top: 0pt;
+}
+
+nav a, button {
+  min-width: 48px;
+  min-height: 48px;
+}
+h1 {
+  font-size: 52px;
+  color: #666;
+  padding-top: 6pt;
+  margin-bottom: 0pt;
+}
+h2 {
+  font-size: 30px;
+  color: #666;
+  margin-top: 25pt;
+  margin-bottom: 10pt;
+  font-weight: bold;
+  padding-left: 12pt;
+}
+h3 {
+  margin-top: 1pt;
+  margin-bottom: 1pt;
+}
+li {
+    font-family: Verdana, sans-serif;
+    color: #666;
+    font-size: 15.5px;
+    margin-top: 1pt;
+    margin-bottom: 1pt;
+    padding-top: 7pt;
+}
+hr {
+    margin-top: 1pt;
+    margin-bottom: 1pt;
+    height: 2pt;
+}
